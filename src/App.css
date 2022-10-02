@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* background-image: linear-gradient(lightblue, darkblue);  */
+  /* background-image: url('../src//images/background5.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
+
+.app-wrapper {
+  background-image: url('../src//images/background1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background-color: #8a2be2;
+  background-image: linear-gradient(lightblue, darkblue);  */
+  min-width: 250px;
+  min-height: 450px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  /* box-shadow: 3px 6px 40px #000; */
+  /* From https://css.glass */
+  /* background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(17.8px);
+  -webkit-backdrop-filter: blur(17.8px);
+  border: 1px solid rgba(255, 255, 255, 0.3); */
+
+}
+
+.header h1 {
+  /* color: #fff; */
+  text-align: center;
+  margin: 30px 0;
+}
+
+.task_input {
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  border: 1px solid #c89666;
+  border-radius: 15px;
+  background-image: linear-gradient(lightblue, darkblue);
+}
+
+.add_button {
+  width: 70px;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.dlt_button {
+  width: 130px;
+  padding: 15px 15px;
+  margin-left: 2px;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.display_list {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 10px;
+  max-height: 30px;
+}
+
+.list {
+  width: 220px;
+  background-color: #12343b;
+  border: none;
+  color: #ccc;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+
+.msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  font-size: larger;
+  font-weight: bold;
+  /* color:#ccc */
+}
+
+.taskBg {
+  background-image: linear-gradient(darkblue, #8d87ee);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding: 10px 20px 10px 15px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+.taskBg div {
+  display: flex;
+  align-items: center;
+}
+
+.taskNumber {
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  text-align: center;
+  margin-left: 8px;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskBg .done .taskText {
+  text-decoration: line-through;
+  opacity: 0.3;
+  /* flex: 1; */
+}
+
+.iconWrap {
+
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+
+.taskBg .iconWrap span {
+  display: inline-block;
+  margin: 15px 20px 0 10px;
+  cursor: pointer;
+  color: gold
+}
+
+.taskBg .iconWrap span :hover {
+  color: #d787ee;
+}
+
+button {
+  background-color: #8d87ee;
+  border: none;
+  border-radius: 15%;
+  width: 70px;
+  /* color:aliceblue; */
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #12343b;
+  color: gainsboro
+}
+
+input {
+  color: wheat;
+
+}
+
+input:hover {
+  background-color: #6495ed
+}
