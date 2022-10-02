@@ -1,7 +1,7 @@
-import logo from "./logo.svg";
-import "./App.css";
 import React, { useState, usestate } from "react";
+
 import Header from "./components/Header";
+import "./App.css";
 
 function App() {
   const [todo, setTodo] = useState("");
@@ -22,7 +22,7 @@ function App() {
     let newTask = todo.filter((task) => task.id !== id);
     setTodo(newTask);
   };
-  // //mark task as complete or oncomplete
+  // //mark task as complete or incomplete
   const markDone = (id) => {
     let newTask = todo.map((task) => {
       if (task.id === id) {
@@ -116,7 +116,6 @@ function App() {
                   </span>
                   {task.status ? null : (
                     <span title="Edit">
-                      <i class="fa-sharp fa-solid fa-user-pen"></i>
                       <delete
                         onClick={() =>
                           setUpdateData({
@@ -138,16 +137,7 @@ function App() {
               </div>
             </div>
           ))}
-        {/* <input
-          type="text"
-          placeholder="Enter Task"
-          className="task_input"
-          // value={input}
-          // onChange={inputHandler}
-        />
-        <button className="add_button">Add</button>
-        <br /> */}
-      </div>
+          </div>
     </div>
   );
 }
