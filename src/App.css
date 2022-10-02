@@ -4,10 +4,6 @@
 }
 
 .container {
-  /* background-image: linear-gradient(lightblue, darkblue);  */
-  /* background-image: url('../src//images/background5.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover; */
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -17,28 +13,16 @@
 }
 
 .app-wrapper {
-  background-image: url('../src//images/background1.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-color: #8a2be2;
-  background-image: linear-gradient(lightblue, darkblue);  */
+  background-image: linear-gradient(#EE6983, #FFC4C4);
   min-width: 250px;
   min-height: 450px;
   padding: 30px;
   box-sizing: border-box;
   border-radius: 20px;
-  /* box-shadow: 3px 6px 40px #000; */
-  /* From https://css.glass */
-  /* background: rgba(255, 255, 255, 0.06);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(17.8px);
-  -webkit-backdrop-filter: blur(17.8px);
-  border: 1px solid rgba(255, 255, 255, 0.3); */
-
 }
 
 .header h1 {
-  /* color: #fff; */
+  color: #FFF5E4;
   text-align: center;
   margin: 30px 0;
 }
@@ -98,19 +82,19 @@
   margin: 0px;
   font-size: larger;
   font-weight: bold;
-  /* color:#ccc */
+  color: #FFF5E4;
 }
 
 .taskBg {
-  background-image: linear-gradient(darkblue, #8d87ee);
+  background-image: linear-gradient(#EE6983, #FFC4C4);
   border-radius: 8px;
   margin-bottom: 20px;
   margin-top: 5px;
   padding: 10px 20px 10px 15px;
   text-align: left;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
-
+  color: #FFF5E4;
 }
 
 .taskBg div {
@@ -130,16 +114,15 @@
   font-size: 12px;
   align-items: center;
   justify-content: center;
+  color: #850E35;
 }
 
 .taskBg .done .taskText {
   text-decoration: line-through;
   opacity: 0.3;
-  /* flex: 1; */
 }
 
 .iconWrap {
-
   top: 50%;
   transform: translateY(-50%);
   right: 15px;
@@ -151,33 +134,28 @@
   display: inline-block;
   margin: 15px 20px 0 10px;
   cursor: pointer;
-  color: gold
+  color: #850E35
 }
 
 .taskBg .iconWrap span :hover {
-  color: #d787ee;
+  color: #FFF5E4;
 }
 
 button {
-  background-color: #8d87ee;
+  background-color: #850E35;
   border: none;
   border-radius: 15%;
   width: 70px;
-  /* color:aliceblue; */
+  color: #FFF5E4;
   margin-left: 10px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #12343b;
-  color: gainsboro
-}
-
-input {
-  color: wheat;
-
+  background-color: #850E35;
+  color: white
 }
 
 input:hover {
-  background-color: #6495ed
+  background-color: #FFD1D1
 }

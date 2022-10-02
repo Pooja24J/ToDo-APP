@@ -68,6 +68,7 @@ function App() {
                 <input
                   value={updateData && updateData.title}
                   onChange={(e) => changeTask(e)}
+                  placeholder="Enter To Do Here.... "
                 />
               </div>
               <div className="col-auto">
@@ -85,6 +86,7 @@ function App() {
                 <input
                   value={newTask}
                   onChange={(e) => setNewTask(e.target.value)}
+                  placeholder="Enter To Do Here.... "
                 />
               </div>
               <div className="col-auto">
